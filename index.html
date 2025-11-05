@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keerthi Balasubramanian | Data Scientist & Engineer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="intro">
+          <h1>Hi, I'm <span class="name">Keez</span></h1>
+          <p class="role">Aspiring Data Scientist & Engineer</p>
+          <p class="tagline">Exploring Data Science, AI, and Automation</p>
+        </div>
+
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="card about-card">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I’m Keerthi Balasubramanian (Keez) — a passionate learner in the field of Data Science and Engineering.
+            I love transforming raw data into meaningful insights and intelligent solutions using Python, Machine Learning,
+            and Artificial Intelligence. My journey bridges engineering fundamentals and data-driven creativity.
+          </p>
+        </div>
+        <div class="about-photo">
+          <img src="images/me.jpg" alt="Keerthi (Keez) photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <div class="project-list">
+        <article class="project">
+          <h3>📧 Spam Detector (Text Classification)</h3>
+          <p>Built a spam classifier using TF-IDF and Naive Bayes, deployed locally with Streamlit.</p>
+          <p><strong>Tools:</strong> Python, scikit-learn, Streamlit</p>
+          <a class="btn" href="https://github.com/keerthib13/streamlit-spam" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <h3>💹 Stock Market Prediction App</h3>
+          <p>
+            Developed an interactive machine learning app that predicts stock price trends based on historical
+            market data. It visualizes real-time movements, moving averages, and model predictions using Streamlit.
+          </p>
+          <p><strong>Tools:</strong> Python, pandas, scikit-learn, yfinance, Streamlit</p>
+          <a class="btn" href="https://github.com/keerthib13/SM_predict_app" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul class="skills-grid">
+        <li><i class="fa-brands fa-python"></i> Python (pandas, numpy)</li>
+        <li><i class="fa-solid fa-robot"></i> Machine Learning (scikit-learn)</li>
+        <li><i class="fa-solid fa-brain"></i> Artificial Intelligence (Neural Networks, Predictive Models)</li>
+        <li><i class="fa-solid fa-chart-column"></i> Data Visualization (matplotlib, seaborn, Power BI)</li>
+        <li><i class="fa-solid fa-database"></i> SQL & Data Analysis</li>
+        <li><i class="fa-solid fa-image"></i> Image Processing (OpenCV)</li>
+        <li><i class="fa-solid fa-network-wired"></i> Basic Networking / CCNA Concepts</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:keerthisumathi382@gmail.com">keerthisumathi382@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/keerthi-balasubramanian-16936a289/" target="_blank" rel="noopener">linkedin.com/in/keerthi-balasubramanian-16936a289</a></p>
+      <p>GitHub: <a href="https://github.com/keerthib13" target="_blank" rel="noopener">github.com/keerthib13</a></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Keerthi Balasubramanian (Keez). All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
+
