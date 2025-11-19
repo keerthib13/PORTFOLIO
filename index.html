@@ -90,7 +90,7 @@
   /* ABOUT (professional) */
   .about p{color:var(--white);line-height:1.6;font-size:16px;max-width:900px}
 
-  /* Skills */
+  /* Skills - three groups of horizontal cards */
   .skills-groups{display:flex;flex-direction:column;gap:20px}
   .skill-block h3{color:var(--aqua);margin:0 0 8px;font-size:18px}
   .skill-row{display:flex;gap:10px;flex-wrap:wrap}
@@ -99,7 +99,7 @@
     font-size:15px;color:var(--white)
   }
 
-  /* Projects */
+  /* Projects vertical: each card full-width with 4px aqua left border */
   .project-vertical{display:flex;flex-direction:column;gap:18px}
   .project-card{
     background:var(--card);padding:20px;border-radius:12px;border-left:4px solid var(--aqua);
@@ -110,7 +110,7 @@
   .project-card ul{margin-left:18px}
   .project-card .tools{margin-top:8px;color:var(--muted);font-size:14px}
 
-  /* Courses */
+  /* Course card */
   .course-card{background:var(--card);padding:18px;border-left:4px solid var(--aqua);border-radius:12px;color:var(--white)}
 
   /* Internships */
@@ -124,7 +124,7 @@
   /* Footer */
   .footer{margin-top:30px;color:var(--muted);font-size:14px;text-align:center}
 
-  /* Hover */
+  /* Hover & small animations */
   .project-card:hover,.intern-card:hover{transform:translateY(-6px);box-shadow:0 0 22px rgba(79,220,217,0.18);transition:all .28s}
   .skill-card:hover{transform:translateY(-6px);transition:.2s}
 
@@ -138,7 +138,6 @@
   }
 </style>
 </head>
-
 <body class="dark">
 
   <!-- Header nav -->
@@ -194,7 +193,6 @@
         <div class="label">GitHub</div>
         <div class="value"><a href="https://github.com/keerthib13" target="_blank" style="color:var(--white)">github.com/keerthib13</a></div>
       </div>
-
     </div>
   </aside>
 
